@@ -16,14 +16,12 @@ public class Main {
 			pessoas[i].setNome(nome);
 			pessoas[i].setNumeroParaSorteio(i);
 			
-			
 		}
-		
-		
+		//Mostrar A lista de pessoas
 		for(int j = 0; j< pessoas.length; j++) {
 			System.out.println(pessoas[j].getNome());
 		}
-		
+		// Sortear um numero
 		sorteado = (int)(Math.random() * pessoas.length);
 		
 		
