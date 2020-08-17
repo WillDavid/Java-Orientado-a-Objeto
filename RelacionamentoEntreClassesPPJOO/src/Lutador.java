@@ -27,7 +27,7 @@ public class Lutador {
 	
 	public void apresentar() {
 		System.out.println("-------------------------------");
-		System.out.println("Nome: " + getNome());
+		System.out.println("O Nome: " + getNome());
 		System.out.println("Nacionalidade: " + getNacionalidade());
 		System.out.println("idade: " + getIdade());
 		System.out.println("Peso: " + getPeso());
