@@ -1,4 +1,4 @@
-// author: William David Martins de Almeida
+// Author: William David Martins de Almeida
 // Date: 21.08.2020
 // Link repository: https://github.com/WillDavid/Java-OO
 public class CalculoMedia {
