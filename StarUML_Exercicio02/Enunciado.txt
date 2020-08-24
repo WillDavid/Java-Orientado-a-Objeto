@@ -1,0 +1,4 @@
+Elabore diagramas de classes que modele  a seguintes relações de associação entre classes de objetos: 
+Um departamento pode ter 1 ou vários funcionários que por sua vez estão lotados em um departamento
+Um aluno pode ser orientado por um professor que por sua vez pode orientar vários alunos
+Um cliente pode ter várias faturas, e uma fatura  pertence a um e apenas a um cliente
