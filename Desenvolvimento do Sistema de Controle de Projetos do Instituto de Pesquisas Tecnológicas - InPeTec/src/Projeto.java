@@ -2,16 +2,21 @@
 public class Projeto {
 	private String nomeProjeto;
 	private int duracaoProjeto;
-	private String dataInicioProjeto;
+	private Data datainicio;
 	private float custo;
 	
 	
-	public Projeto(String nomeProjeto, int duracaoProjeto, String dataInicioProjeto, float custo) {
+	
+	
+	public Projeto(String nomeProjeto, int duracaoProjeto, Data datainicio, float custo) {
 		this.nomeProjeto = nomeProjeto;
 		this.duracaoProjeto = duracaoProjeto;
-		this.dataInicioProjeto = dataInicioProjeto;
+		this.datainicio = datainicio;
 		this.custo = custo;
 	}
+	
+	
+	
 
 
 	public String getNomeProjeto() {
@@ -32,16 +37,17 @@ public class Projeto {
 	public void setDuracaoProjeto(int duracaoProjeto) {
 		this.duracaoProjeto = duracaoProjeto;
 	}
-
-
-	public String getDataInicioProjeto() {
-		return dataInicioProjeto;
+	
+	
+	public Data getDatainicio() {
+		return datainicio;
 	}
 
 
-	public void setDataInicioProjeto(String dataInicioProjeto) {
-		this.dataInicioProjeto = dataInicioProjeto;
+	public void setDatainicio(Data datainicio) {
+		this.datainicio = datainicio;
 	}
+
 
 
 	public float getCusto() {
@@ -52,6 +58,9 @@ public class Projeto {
 	public void setCusto(float custo) {
 		this.custo = custo;
 	}
+
+
+	
 	
 	
 	
