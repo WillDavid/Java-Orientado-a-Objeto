@@ -3,15 +3,30 @@ import java.util.ArrayList;
 public class InstitutoPesquisa {
 	private ArrayList<Pesquisador> pesquisadores = new ArrayList<>();
 	private ArrayList<Projeto> projetos = new ArrayList<>();
+	private ArrayList<Alocacao> alocacoes = new ArrayList<>();
 	
 	
+	public InstitutoPesquisa() {
+		
+	}
 	
+	
+	public void iniciaInstituto(Projeto projeto, Pesquisador pesquisador, Alocacao alocacao) {
+		addProjeto(projeto);
+		addPesquisador(pesquisador);
+		addAlocacao(alocacao);
+	}
+
 	public void addProjeto(Projeto projeto) {
 		projetos.add(projeto);
 	}
 	
 	public void addPesquisador(Pesquisador pesquisador) {
 		pesquisadores.add(pesquisador);
+	}
+	
+	public void addAlocacao(Alocacao alocacao) {
+		alocacoes.add(alocacao);
 	}
 	
 	public void mostrarProjetos() {
@@ -32,30 +47,28 @@ public class InstitutoPesquisa {
 		}
 	}
 	
-
-
+	public void mostrarAlocacoes() {
+		System.out.println("###### ALOCAÇÕES ######\nPesquisador   Projeto   Data Entrada");
+		for(int i=0; i< alocacoes.size();i++) {
+			System.out.println(this.alocacoes.get(i).getPesquisadoresAlocacao().getNome()+"   "+ this.alocacoes.get(i).getProjetoAlocacao().getNomeProjeto()+"   " + this.alocacoes.get(i).getDataAlocacao().getDia()
+					+"/" + this.alocacoes.get(i).getDataAlocacao().getMes()+"/" + this.alocacoes.get(i).getDataAlocacao().getAno());
+		}
+	}
 
 	public ArrayList<Pesquisador> getPesquisadores() {
 		return pesquisadores;
 	}
 
-
-
-	public void setPesquisadores(ArrayList<Pesquisador> pesquisadores) {
-		this.pesquisadores = pesquisadores;
-	}
-
-
-
 	public ArrayList<Projeto> getProjetos() {
 		return projetos;
 	}
 
-
-
-	public void setProjetos(ArrayList<Projeto> projetos) {
-		this.projetos = projetos;
+	public ArrayList<Alocacao> getAlocacoes() {
+		return alocacoes;
 	}
+	
+
+
 	
 	
 	

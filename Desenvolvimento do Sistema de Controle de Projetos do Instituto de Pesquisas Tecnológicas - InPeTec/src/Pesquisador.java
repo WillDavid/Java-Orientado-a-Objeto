@@ -1,10 +1,10 @@
 
 public class Pesquisador {
-	private String nome;
-	private String matricula;
-	private float salarioBase;
-	private float salarioBruto;
-	private String categoria;
+	protected String nome;
+	protected String matricula;
+	protected float salarioBase;
+	protected float salarioBruto;
+	protected String categoria;
 	
 	
 	public Pesquisador(String nome, String matricula, float salarioBase, String categoria) {
