@@ -1,4 +1,6 @@
-
+// Author: William David Martins de Almeida
+// 05.09.2020
+// Link GitHub: https://github.com/WillDavid/Java-OO
 public class Projeto {
 	private String nomeProjeto;
 	private int duracaoProjeto;
