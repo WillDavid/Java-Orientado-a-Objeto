@@ -12,21 +12,28 @@ public class Pesquisador {
 		this.matricula = matricula;
 		this.salarioBase = salarioBase;
 		this.categoria = categoria;
+		
 	}
 	
 	
-	public void calculaSalario() {
+	public float calculaSalario() {
 		if(this.categoria == "Assistente") {
 			this.salarioBruto = salarioBase * 2.25f;
-			System.out.println("Salario Bruto: " + this.salarioBruto);
+			
 		}else if(this.categoria == "Pleno") {
 			this.salarioBruto = salarioBase * 4.68f;
-			System.out.println("Salario Bruto: " + this.salarioBruto);
+			
 		}else if(this.categoria == "Sênior") {
 			this.salarioBruto = salarioBase * 6.11f;
-			System.out.println("Salario Bruto: " + this.salarioBruto);
+			
 		}
+		
+		
+		return salarioBruto;
 	}
+	
+	
+	
 	
 	public String getNome() {
 		return nome;

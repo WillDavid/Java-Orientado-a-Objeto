@@ -7,5 +7,7 @@ public class Senior extends Pesquisador {
 		
 		this.setCategoria("Sênior");
 	}
+	
+	
 
 }

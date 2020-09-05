@@ -7,5 +7,6 @@ public class Pleno extends Pesquisador {
 		
 		this.setCategoria("Pleno");
 	}
-
+	
+	
 }
