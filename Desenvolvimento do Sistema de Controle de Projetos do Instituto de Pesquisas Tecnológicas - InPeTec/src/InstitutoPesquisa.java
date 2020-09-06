@@ -1,4 +1,4 @@
-// Author: William David Martins de Almeida
+// Authores: William David e Leticia Minelvino
 // 05.09.2020
 // Link GitHub: https://github.com/WillDavid/Java-OO
 import java.util.ArrayList;
