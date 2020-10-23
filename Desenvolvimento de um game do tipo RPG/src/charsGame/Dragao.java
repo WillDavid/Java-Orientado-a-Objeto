@@ -10,37 +10,37 @@ public class Dragao extends Personagem implements ComportamentoFeroz {
 
 	@Override
 	public void atirarFogo() {
-		System.out.println("O Dragão "+this.getNome()+ " está mordendo");
+		System.out.println("O Dragï¿½o "+this.getNome()+ " esta mordendo");
 
 	}
 
 	@Override
 	public void voar() {
-		System.out.println("O Dragão "+this.getNome()+ " está voando");
+		System.out.println("O Dragï¿½o "+this.getNome()+ " esta voando");
 
 	}
 
 	@Override
 	public void morder() {
-		System.out.println("O Dragão "+this.getNome()+ " mordeu");
+		System.out.println("O Dragï¿½o "+this.getNome()+ " mordeu");
 
 	}
 	
 	@Override
 	public void andar() {
-		System.out.println("O Dragão "+this.getNome()+ " andou");
+		System.out.println("O Dragï¿½o "+this.getNome()+ " andou");
 
 	}
 
 	@Override
 	public void guardarItem() {
-		System.out.println("O Dragão "+this.getNome()+ " guardou o seu ouro");
+		System.out.println("O Dragï¿½o "+this.getNome()+ " guardou o seu ouro");
 
 	}
 
 	@Override
 	public void usarItem() {
-		System.out.println("O Dragão "+this.getNome()+ " usou uma poção");
+		System.out.println("O Dragï¿½o "+this.getNome()+ " usou uma pocao");
 
 	}
 

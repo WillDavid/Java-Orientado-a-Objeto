@@ -40,7 +40,7 @@ public class Cavaleiro extends Personagem implements ComportamentoHeroico {
 
 	@Override
 	public void usarItem() {
-		System.out.println("O Cavaleiro "+this.getNome()+ " usou uma poção");
+		System.out.println("O Cavaleiro "+this.getNome()+ " usou uma pocao");
 
 	}
 }

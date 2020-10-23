@@ -10,13 +10,13 @@ public class Mago extends Personagem implements ComportamentoMagico {
 
 	@Override
 	public void invisibilidade() {
-		System.out.println("O Mago "+this.getNome()+ " está invisivel");
+		System.out.println("O Mago "+this.getNome()+ " esta invisivel");
 
 	}
 
 	@Override
 	public void ultraRapidez() {
-		System.out.println("O Mago "+this.getNome()+ " está ultra Rapido");
+		System.out.println("O Mago "+this.getNome()+ " esta ultra Rapido");
 
 	}
 	
@@ -34,7 +34,7 @@ public class Mago extends Personagem implements ComportamentoMagico {
 
 	@Override
 	public void usarItem() {
-		System.out.println("O Mago "+this.getNome()+ " usou uma poção");
+		System.out.println("O Mago "+this.getNome()+ " usou uma pocao");
 
 	}
 
