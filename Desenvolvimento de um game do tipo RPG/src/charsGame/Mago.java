@@ -1,4 +1,9 @@
+// Autores: William David e Leticia Minelvino
+// Link GitHub: https://github.com/WillDavid/Java-OO
+
 package charsGame;
+
+
 import interfaceGame.ComportamentoMagico;
 
 public class Mago extends Personagem implements ComportamentoMagico {

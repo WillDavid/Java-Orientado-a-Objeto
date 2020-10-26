@@ -1,6 +1,6 @@
+// Autores: William David e Leticia Minelvino
+// Link GitHub: https://github.com/WillDavid/Java-OO
 package Jogo;
-
-
 import charsGame.Personagem;
 
 public class Jogo {
@@ -17,6 +17,7 @@ public class Jogo {
 		perso.andar();
 		perso.guardarItem();
 		perso.usarItem();
+		System.out.println("\n");
 	}
 
 
